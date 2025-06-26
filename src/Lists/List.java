@@ -6,10 +6,11 @@ package Lists;
 
 /**
  *
+
  * @author Sebastian
  */
 public interface List <T> {
     
     public void showAll();
-    
+    public boolean add(T t);
 }
